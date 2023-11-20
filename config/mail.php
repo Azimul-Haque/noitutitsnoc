@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'support@killabd.com', 'name' => 'BCS Constitution'],
+    'from' => ['address' => 'support@constitution.orbachinujbuk.com', 'name' => 'BCS Constitution'],
 
     /*
     |--------------------------------------------------------------------------

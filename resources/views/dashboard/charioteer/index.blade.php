@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Charioteer | Onesignal')
+@section('title', 'বিসিএস সংবিধান ড্যাশবোর্ড')
 
 @section('css')
 
@@ -8,7 +8,7 @@
 
 @section('content_header')
     <h1>
-      Onesignal Push Notification Service
+      বিসিএস সংবিধান ড্যাশবোর্ড
       <div class="pull-right">
         
       </div>

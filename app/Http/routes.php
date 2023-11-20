@@ -74,7 +74,7 @@ Route::get('/', ['as'=>'index.index','uses'=>'IndexController@index']);
 // // dashboard routes
 // // dashboard routes
 // Route::resource('users','UserController');
-// Route::get('/dashboard', ['as'=>'dashboard.index','uses'=>'DashboardController@index']);
+Route::get('/dashboard', ['as'=>'dashboard.index','uses'=>'DashboardController@index']);
 // Route::get('/dashboard/committee', ['as'=>'dashboard.committee','uses'=>'DashboardController@getCommittee']);
 // Route::post('/dashboard/committee', ['as'=>'dashboard.storecommittee','uses'=>'DashboardController@storeCommittee']);
 // Route::put('/dashboard/committee/{id}', ['as'=>'dashboard.updatecommittee','uses'=>'DashboardController@updateCommittee']);

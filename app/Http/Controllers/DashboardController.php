@@ -31,7 +31,6 @@ class DashboardController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
-        $this->middleware('admin')->except(['index', 'getPersonalPubs', 'createPersonalPub', 'storePersonalPub', 'getPersonalProfile', 'updatePersonalProfile']);
     }
 
     /**

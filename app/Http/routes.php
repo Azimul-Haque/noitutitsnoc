@@ -52,7 +52,7 @@ Route::get('/', ['as'=>'dashboard.onesignal','uses'=>'OneSignalController@index'
 // Route::get('/gallery', ['as'=>'index.gallery','uses'=>'IndexController@getGallery']);
 // Route::get('/contact', ['as'=>'index.contact','uses'=>'IndexController@getContact']);
 // Route::post('/contact/form/message/store', ['as'=>'index.storeformmessage','uses'=>'IndexController@storeFormMessage']);
-Route::get('/application', ['as'=>'index.application','uses'=>'IndexController@getApplication']);
+// Route::get('/application', ['as'=>'index.application','uses'=>'IndexController@getApplication']);
 Route::get('/member/login', ['as'=>'index.login','uses'=>'IndexController@getLogin']);
 // Route::post('/member/application/store', ['as'=>'index.storeapplication','uses'=>'IndexController@storeApplication']);
 

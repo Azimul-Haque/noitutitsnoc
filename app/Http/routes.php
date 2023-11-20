@@ -18,8 +18,7 @@ Route::get('/clear', ['as'=>'clear','uses'=>'IndexController@clear']);
 
 // index routes
 // index routes
-Route::get('/', ['as'=>'dashboard.onesignal','uses'=>'OneSignalController@index']);
-// Route::get('/', ['as'=>'index.index','uses'=>'IndexController@index']);
+Route::get('/', ['as'=>'index.index','uses'=>'IndexController@index']);
 // Route::get('/', ['as'=>'index.index','uses'=>'IndexController@index']);
 // Route::get('/home', ['as'=>'index.homeadhoc','uses'=>'IndexController@homeAdhoc']); // reset password redirect adhoc solve
 // Route::get('/about', ['as'=>'index.about','uses'=>'IndexController@getAbout']);

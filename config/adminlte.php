@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Killa Consultancy',
+    'title' => 'বিসিএস সংবিধান',
 
     'title_prefix' => '',
 

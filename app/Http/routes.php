@@ -69,7 +69,7 @@ Route::get('/member/login', ['as'=>'index.login','uses'=>'IndexController@getLog
 // // blog routes
 // // blog routes
 
-// Route::auth();
+Route::auth();
 
 // // dashboard routes
 // // dashboard routes

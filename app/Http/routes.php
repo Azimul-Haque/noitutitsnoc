@@ -12,6 +12,8 @@
 */
 
 
+
+
 Route::get('/clear', ['as'=>'clear','uses'=>'IndexController@clear']);
 
 // index routes

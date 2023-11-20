@@ -45,7 +45,7 @@ class DashboardController extends Controller
             Session::flash('info', 'Your account is not activated yet, after successfull activation, you can do things.');
             return redirect()->route('index.index');
         } else {
-            redirect->route('dashboard.onesignal');
+            return redirect->route('dashboard.onesignal');
             // $member = User::find(Auth::user()->id);
             // return view('dashboard.index')->withMember($member);
         }

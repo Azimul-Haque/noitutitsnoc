@@ -2,7 +2,7 @@
   <div style="border: 1px solid #ACACAC; padding: 10px; max-width: 500px;">
     <center>
       <img src="{{ asset('images/logo.png') }}" width="100px; height: auto;">
-      <p style="font-size: 30px; color: #1B237D;"><b>Killa</b>Consultancy</p>
+      <p style="font-size: 30px; color: #1B237D;"><b>BCS</b> Constitution</p>
       <p style="font-size: 25px"><b>Your Password Reset Link</b></p>
     
       <p style="font-size: 20px">

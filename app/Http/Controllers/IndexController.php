@@ -33,27 +33,7 @@ class IndexController extends Controller
 
     public function index()
     {
-        // $blogs = Blog::orderBy('id', 'DESC')->get()->take(3);
-        // $alumnis = User::where('payment_status', 1)
-        //                ->where('role', 'alumni')->count();
-
-        $sliders = Slider::orderBy('id', 'desc')->get();
-        $projects = Project::orderBy('id', 'desc')->get()->take(4);
-        $publications = Publication::where('status', 1)->orderBy('id', 'desc')->get()->take(3);
-
-        $employeecount = User::all()->count();
-        $ongoingprojectcount = Project::where('status', 0)->count();
-        $completeprojectcount = Project::where('status', 1)->count();
-        $publicationcount = Publication::all()->count();
-        
-        return view('index.index')
-                            ->withSliders($sliders)
-                            ->withProjects($projects)
-                            ->withPublications($publications)
-                            ->withEmployeecount($employeecount)
-                            ->withOngoingprojectcount($ongoingprojectcount)
-                            ->withCompleteprojectcount($completeprojectcount)
-                            ->withPublicationcount($publicationcount);
+        return redirect()->route('dashboard.onesignal');
     }
 
     public function homeAdhoc()

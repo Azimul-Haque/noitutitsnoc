@@ -9,7 +9,9 @@
 @section('body_class', 'login-page')
 
 @section('body')
-    <div class="login-box"><br/>
+    <div class="login-box">
+        <br/>
+        <br/>
         <div class="login-logo">
             {{-- <a href="{{ url(config('adminlte.dashboard_url', 'home')) }}">{!! config('adminlte.logo', '<b>Admin</b>LTE') !!}</a> --}}
             <small>বিসিএস সংবিধান ড্যাশবোর্ড</small>

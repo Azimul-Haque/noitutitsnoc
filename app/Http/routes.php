@@ -141,8 +141,8 @@ Route::get('/dashboard', ['as'=>'dashboard.index','uses'=>'DashboardController@i
 // Route::get('/dashboard/personal/publications', ['as'=>'dashboard.personal.pubs','uses'=>'DashboardController@getPersonalPubs']);
 // Route::get('/dashboard/personal/publication/create', ['as'=>'dashboard.personal.pubs.create','uses'=>'DashboardController@createPersonalPub']);
 // Route::post('/dashboard/personal/publication/store', ['as'=>'dashboard.personal.pubs.store','uses'=>'DashboardController@storePersonalPub']);
-// Route::get('/dashboard/personal/profile', ['as'=>'dashboard.personal.profile','uses'=>'DashboardController@getPersonalProfile']);
-// Route::put('/dashboard/personal/profile/{id}/update', ['as'=>'dashboard.profile.update','uses'=>'DashboardController@updatePersonalProfile']);
+Route::get('/dashboard/personal/profile', ['as'=>'dashboard.personal.profile','uses'=>'DashboardController@getPersonalProfile']);
+Route::put('/dashboard/personal/profile/{id}/update', ['as'=>'dashboard.profile.update','uses'=>'DashboardController@updatePersonalProfile']);
 // // dashboard routes
 // // dashboard routes
 

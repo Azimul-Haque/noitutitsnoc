@@ -12,7 +12,7 @@
     <div class="login-box">
         <div class="login-logo">
             {{-- <a href="{{ url(config('adminlte.dashboard_url', 'home')) }}">{!! config('adminlte.logo', '<b>Admin</b>LTE') !!}</a> --}}
-            <small>Knowledge, Information & Learning for Local Adaptation</small>
+            <small>বিসিএস সংবিধান ড্যাশবোর্ড</small>
         </div>
         <!-- /.login-logo -->
         <div class="login-box-body">
